@@ -26,13 +26,13 @@ public class Main {
              throw new AssertionError("Incorrect test result");
         Divide divide = new Divide(1, 4);
         if(divide.Calculate(12, 3) != 4)
-            throw new AssertionError("Inccrrect test result");
+            throw new AssertionError("Incorrect test result");
         Minus minus = new Minus(1, 1);
         if(minus.Calculate(4, 1) != 3)
-            throw new AssertionError("Inccrrect test result");
+            throw new AssertionError("Incorrect test result");
         Multiply multiply = new Multiply(1, 4);
         if(multiply.Calculate(2, 4) != 8)
-            throw new AssertionError("Inccrrect test result");
+            throw new AssertionError("Incorrect test result");
         System.out.println("All correct");
     }
 }
